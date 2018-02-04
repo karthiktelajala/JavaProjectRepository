@@ -52,6 +52,12 @@ public class TestNGDemo1 {
 		System.out.println("My Third Test Case");
 	}
 	
+	@Test(groups ={"Sanity"})
+	public void testCaseNew() 
+	{	
+		System.out.println("My New Test Case");
+	}
+	
 	@AfterMethod
 	public void afterMethod()
 	{
